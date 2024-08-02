@@ -18,7 +18,7 @@ function CountryDetails() {
             setCountry(foundCountry)
             setLoading(false)
         })
-    }, [])
+    }, [alpha3Code])
 
     if (Loading==false){
 
